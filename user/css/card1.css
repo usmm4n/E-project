@@ -1,0 +1,72 @@
+/* Container for cards */
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+  gap: 1.5rem; /* Space between cards */
+  margin: 2rem 0; /* Add margin at the top and bottom */
+}
+
+/* Card styling */
+.card {
+  background-color: #fff;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for cards */
+.card:hover {
+  transform: scale(1.02); /* Slight zoom effect */
+}
+
+/* Responsive Design */
+
+/* For medium screens, show 3 cards per row */
+@media (max-width: 1024px) {
+  .card-section {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* For tablets, show 2 cards per row */
+@media (max-width: 768px) {
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* For mobile screens, show 1 card per row */
+@media (max-width: 480px) {
+  .card-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+  /* Card price */
+  .card-contents p {
+    font-weight: bold; /* Emphasize price */
+    margin-bottom: 0.75rem; /* Add some space below the price */
+  }
+  
+  /* Card button container */
+  .cart-btn {
+    text-align: center; /* Center the button horizontally */
+  }
+  
+  /* Add to Cart button */
+  .add-btn {
+    background-color: #333; /* Darker background for the button */
+    color: #fff; /* White text for the button */
+    padding: 0.75rem 1.5rem; /* Adjust padding for the button */
+    border: none; /* Remove default button borders */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable element */
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .add-btn:hover {
+    background-color: #222; /* Darker background on hover */
+  }
+  

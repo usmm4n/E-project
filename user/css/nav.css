@@ -1,0 +1,172 @@
+/* Reset styles for a cleaner slate (optional) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFDD0;
+    color: #fff;
+    height: 80px;
+    padding: 0 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navigation heading styles */
+  .nav-heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .nav-heading a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Navigation links styles */
+  .nav-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-right li {
+    margin: 0 1rem; /* Add some space between links */
+  }
+  
+  .nav-right a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav-right a:hover {
+    color: red; /* Lighter text color on hover */
+  }
+  
+  /* User greeting and login/logout styles */
+  .nav-left-element {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .nav-left-element a {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 1rem; /* Add some space between greeting and links */
+  }
+  
+  /* Category navigation styles */
+  /* Category navigation container */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Category navigation list */
+.category-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+/* Category list items (inactive state) */
+.category-nav li {
+  margin-right: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.category-nav li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Category list items (hover state) */
+.category-nav li:hover {
+  color: #000;
+  border-bottom: 2px solid #333;
+}
+
+/* Category list items (active state - optional) */
+.category-nav li.active a {
+  color: #fff;
+  background-color: #333;
+}
+
+.category-nav li.active:hover {
+  border-bottom: none;
+}
+
+/* Search css */
+#search {
+  padding: .7rem 1rem;
+    border-radius: 8px;
+}
+
+#search-btn {
+  padding: .7rem;
+    border-radius: 8px;
+}
+
+#menuicon {
+  display: none;
+}
+
+#menuicon i {
+  font-size: 30px;
+  color: #fff;
+  /* display: none; */
+}
+
+.sidebar {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(56, 56, 56, 0.914);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar ul a,
+.sidebar ul li {
+  list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.sidebar i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.dnone {
+  display: none;
+}
+
+#mobile-searchbar {
+  display: none;
+}

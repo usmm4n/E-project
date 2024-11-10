@@ -1,0 +1,44 @@
+.user-container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.delete-btn a {
+  text-decoration: none;
+}
+
+.total-users {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .total-users h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+  }
+  
+  .total-users h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+body{
+  background-color: #F5F5DC;
+}
