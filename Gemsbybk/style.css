@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #7f2f30;
+  }
+  
+  .navbar a, .navbar .cart-icon {
+    color: #fff;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .btn-add-to-cart {
+    background-color: #7f2f30;
+    color: #fff;
+  }
+  
+  .btn-add-to-cart:hover {
+    background-color: #641f21;
+  }
+  
+  .section-heading {
+    text-align: center;
+    margin: 20px 0;
+    color: #7f2f30;
+  }
+  footer{
+    background-color:#7f2f30 ;
+    color: #fff;
+  }
+  /* Style for the Add to Cart button */
+button{
+  background-color: #7f2f30;  /* Button background color */
+  color: white;  /* Text color */
+  border: rosybrown;  /* Remove border */
+  padding: 10px 20px;  /* Padding for the button */
+  font-size: 16px;  /* Font size */
+  cursor: pointer;  /* Cursor to indicate button is clickable */
+  transition: background-color 0.3s;  /* Smooth transition for hover effect */
+}
+
+.btn-add-to-cart:hover {
+  background-color: #9e3b38;  /* Slightly lighter color on hover */
+}
